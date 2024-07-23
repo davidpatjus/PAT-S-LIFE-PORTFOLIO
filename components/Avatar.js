@@ -8,7 +8,7 @@ const Avatar = () => {
     alt="avatar"
     width={504}
     height={896}
-    className="translate-z-0 w-full h-full transform hover:scale-105 transition-transform duration-500 ease-in-out mt-8 backdrop-filter backdrop-blur-3xl bg-opacity-50 rounded-2xl"
+    className="translate-z-0 w-full h-full transform hover:scale-105 transition-transform duration-500 ease-in-out mt-8 bg-opacity-50 rounded-2xl"
     />
   </div>;
 };
