@@ -6,15 +6,47 @@ import {
   FaCss3,
   FaJs,
   FaReact,
-  FaWordpress,
   FaFigma,
+  FaAngular,
+  FaNodeJs,
+  FaGitAlt,
+  FaPhp,
+  FaGithub,
+  FaBootstrap,
+  FaDocker,
+  FaNpm,
+  FaPython, 
 } from "react-icons/fa";
 
 import {
   SiNextdotjs,
   SiFramer,
-  SiAdobexd,
   SiAdobephotoshop,
+  SiCplusplus,
+  SiTypescript,
+  SiMysql,
+  SiPostgresql,
+  SiExpress,
+  SiVisualstudio,
+  SiAstro,
+  SiTailwindcss,
+  SiCsharp,
+  SiFirebase,
+  SiMongodb,
+  SiNestjs,
+  SiNotion,
+  SiPostman,
+  SiPowershell,
+  SiRedux,
+  SiSupabase,
+  SiSequelize,
+  SiVercel,
+  SiVite,
+  SiWebpack,
+  SiCanva,
+  SiJsonwebtokens,
+  SiAxios,
+  SiNodemon,
 } from "react-icons/si";
 
 // framer motion 
@@ -31,96 +63,122 @@ import CountUp from "react-countup";
 //  data
 const aboutData = [
   {
-    title: 'skills',
+    title: 'Skills',
     info: [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key={FaHtml5} />,
+          <FaCss3 key={FaCss3} />,
+          <FaJs key={FaJs} />,
+          <SiTypescript key={SiTypescript} />,
+          <FaReact key={FaReact} />,
+          <SiVite key={SiVite} />,
+          <SiNextdotjs key={SiNextdotjs} />,
+          <FaAngular key={FaAngular} />,
+          <SiAstro key={SiAstro} />,
+          <SiFramer key={SiFramer} />,
+          <FaBootstrap key={FaBootstrap} />,
+          <SiTailwindcss key={SiTailwindcss} />,
+          <SiRedux key={SiRedux} />,
+          <SiAxios key={SiAxios} />,
+        ],
+      },
+      {
+        title: 'Backend Development',
+        icons: [
+        <FaNodeJs key={FaNodeJs} />,
+        <SiNestjs key={SiNestjs} />,
+        <SiExpress key={SiExpress} />,
+        <SiSequelize key={SiSequelize} />,
+        <SiPostman key={SiPostman} />,
+        <SiPowershell key={SiPowershell} />,
+        <SiJsonwebtokens key={SiJsonwebtokens} />,
+        <SiNodemon key={SiNodemon} />
+        ],
+      },
+      {
+        title: 'Database Management',
+        icons: [ 
+        <SiMysql key={SiMysql} />, 
+        <SiPostgresql key={SiPostgresql} />, 
+        <SiMongodb key={SiMongodb} />,
+        <SiFirebase key={SiFirebase} />,
+        <SiSupabase key={SiSupabase} />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+        <FaFigma key={FaFigma} />,
+        <SiCanva key={SiCanva} />,
+        <SiAdobephotoshop key={SiAdobephotoshop} />
+        ],
+      },
+      {
+        title: 'Other tools',
+        icons: [
+        <FaGitAlt key={FaGitAlt} />, 
+        <FaGithub key={FaGithub} />, 
+        <SiVisualstudio key={SiVisualstudio } />, 
+        <SiCplusplus key={SiCplusplus} />,
+        <SiCsharp key={SiCsharp} />, 
+        <FaPhp key={FaPhp} />,
+        <FaPython key={FaPython} />,
+        <FaDocker key={FaDocker} />,
+        <SiVercel key={SiVercel} />,
+        <SiNotion key={SiNotion} />,
+        <FaNpm key={FaNpm} />,
+        <SiWebpack key={SiWebpack} />,
+        ],
       },
     ],
   },
   {
-    title: 'awards',
+    title: 'Studies',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: ' High School - Jose Antonio Galan (2016 - 2022)',
+        stage: 'I completed high school with a focus on foundational sciences and mathematics, laying the groundwork for a career in technology.',
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: ' Bachelors Degree in Systems and Computing Engineering - Universidad Tecnológica de Pereira (2023 - Present) ',
+        stage: 'Currently pursuing a degree that covers various aspects of computing, programming, and systems engineering.',
+      },
+      {
+        title: ' III Coding Bootcamp FullStack - UTP (2024)',
+        stage: 'Gained practical experience in fullstack development, focusing on modern web technologies and best practices.',
+      },
+      {
+        title: ' IV Coding Bootcamp FullStack - UTP (2024)',
+        stage: 'Continued to build on fullstack development skills, working on advanced projects and collaborative tasks.',
       },
     ],
   },
-  {
-    title: 'experience',
-    info: [
-      {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
-      },
-      {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
-      },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
-      },
-    ],
-  },
-  {
-    title: 'credentials',
-    info: [
-      {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
-      },
-      {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
-      },
-      {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
-      },
-    ],
-  },
+
 ];
 
 const About = () => {
   const [index, setIndex] = useState(0);
 
-  return <div className="h-full bg-primary/30 py-32 text-center xl:text-left"> 
+  return <div className=" h-full md:h-screen bg-primary/30 py-32 text-center xl:text-left"> 
     
     <Circles />
     
-    {/* avatar img */}
-    <motion.div 
-      variants={fadeIn('right', 0.2)} 
-      initial='hidden' 
-      animate='show' 
-      exit='hidden' 
-      className="hidden xl:flex absolute bottom-0 -left-[210px]"
-    >
-      <Avatar />
-    </motion.div>
+      {/* avatar */}
+      <motion.div 
+        variants={fadeIn('right', 0.2)} 
+        initial='hidden' 
+        animate='show' 
+        exit='hidden' 
+        className="hidden xl:flex absolute bottom-[-60px] -left-[210px] "
+      >
+        <Avatar />
+      </motion.div>
 
-    <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
 
-      {/* text */}
+        {/* text */}
       <div className="flex-1 flex flex-col justify-center">
         <motion.h2 
           variants={fadeIn('right', 0.2)} 
@@ -128,20 +186,20 @@ const About = () => {
           animate='show' 
           exit='hidden'  className="h2"
         >
-          Captivating <span className="text-accent">stories</span> birth magnificient desings. 
+          Great solutions with wonderful <span className="text-accent">designs.</span> 
         </motion.h2>
         <motion.p 
           variants={fadeIn('right', 0.4)} 
-          initial='hidden' 
-          animate='show' 
-          exit='hidden'  
-          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
+          initial="hidden" 
+          animate="show" 
+          exit="hidden"  
+          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 md:text-lg lg:text-xl "
         >
-          10 years ago, i began freelancing as a Developer. Since then, I&apos;ve done remote work for agencies, counsulted for startups, and collaborated on digital products for business and consumer use.
-        </motion.p >
+          I am a dedicated, committed, self-sufficient, self-demanding and enthusiastic junior Full-Stack developer from Pereira, Colombia. I am currently studying Systems and Computer Engineering at the Technological University of Pereira, since I was a child I have a deep passion for creating innovative digital solutions that bridge the gap between technology and user experience.
+        </motion.p> 
 
-        {/* counters */}
-        <motion.div 
+      {/* counters 
+      <motion.div 
           variants={fadeIn('right', 0.6)} 
           initial='hidden' 
           animate='show' 
@@ -150,7 +208,7 @@ const About = () => {
         >
           <div className="flex flex-1 xl:gap-x-6">
 
-            {/* experience */}
+             experience 
             <div 
               className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0"
             >
@@ -162,7 +220,7 @@ const About = () => {
               </div>
             </div>
 
-            {/* clients */}
+             clients 
             <div 
               className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0"
             >
@@ -174,7 +232,7 @@ const About = () => {
               </div>
             </div>
 
-            {/* projects */}
+             projects
             <div 
               className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0"
             >
@@ -186,7 +244,7 @@ const About = () => {
               </div>
             </div>
 
-            {/* awards */}
+             awards 
             <div 
               className="relative flex-1 "
             >
@@ -200,6 +258,7 @@ const About = () => {
             
           </div>
         </motion.div >
+        */}
 
       </div>
 
@@ -209,54 +268,53 @@ const About = () => {
         initial='hidden' 
         animate='show' 
         exit='hidden'  
-        className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
+        className="flex flex-col w-full xl:max-w-[48%] h-full md:h-[540px] overflow-y-auto scrollbar-thin scrollbar-thumb-accent scrollbar-track-transparent xl:overflow-y-visible"
       >
 
         {/* selector */}
-        <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
-          {aboutData.map((item, itemIndex) => {
-            return (
-              <div 
-                key={itemIndex} 
-                className={`${
-                  index === itemIndex && 
-                  'text-accent after:w-[100%] after:bg-accent after: transition-all after:duration-300'
-                } 
-                  cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-accent after:absolute after:bottom-0 after:left-0`}
-                onClick={() => {setIndex(itemIndex)}}
-              >
-                {item.title}
-              </div>
-            )  
-          })}
+        <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 justify-center">
+          {aboutData.map((item, itemIndex) => (
+            <div 
+              key={itemIndex} 
+              className={`${
+                index === itemIndex ? 'text-accent after:w-[100%] after:bg-accent after: transition-all after:duration-300' : 'text-gray-500'
+              } 
+                cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-accent after:absolute after:bottom-0 after:left-0`}
+              onClick={() => setIndex(itemIndex)}
+            >
+              {item.title}
+            </div>
+          ))}
         </div>
 
         {/* info */}
-        <div className="py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center xl:items-start">
-          {aboutData[index].info.map((item, itemIndex) => {
-            return ( 
-            <div key={itemIndex} className="flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60">
-              {/* tittle */}
-              <div className="font-light mb-2 md:mb-0">{item.title}</div>
-              <div className="hidden md:flex">-</div>
-              <div>{item.stage}</div>
-              <div className="flex gap-x-4">
-              {/* icons */}
-              {item.icons?.map((icon,itemIndex) => {
-                return (
-                <div 
-                  key={itemIndex}
-                  className="text-2xl text-white"
-                >
-                  {icon}
+        <div className="py-4 xl:py-8 flex flex-col gap-y-4 xl:gap-y-6 items-center xl:items-start min-h-screen overflow-y-auto  px-4 xl:px-0">
+          
+            {aboutData[index]?.info.map((item, itemIndex) => (
+              <div 
+                key={itemIndex} 
+                className="flex flex-col justify-center items-center xl:items-start gap-y-4 text-white/60 w-full"
+              >
+                {/* Título */}
+                <div className="font-medium text-lg text-center xl:text-left">{item.title}</div>
+                
+                {/* Leyenda */}
+                <div className="text-gray-400 text-center xl:text-left">{item.stage}</div>
+                
+                {/* Iconos */}
+                <div className="flex gap-x-2 justify-center xl:justify-start">
+                  {item.icons?.map((icon, iconIndex) => (
+                    <div 
+                      key={iconIndex}
+                      className="text-3xl  text-white"
+                    >
+                      {icon}
+                    </div>
+                  ))}
                 </div>
-              )
-              }
-                )}
               </div>
-            </div>
-            );
-          })}
+            ))}
+          
         </div>
 
       </motion.div>

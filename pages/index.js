@@ -16,7 +16,7 @@ const Home = () => {
   return <div className="bg-primary/60 h-full">
     {/* text */}
     <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10 ">
-      <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
+      <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto ">
         {/* title */}
         <motion.h1 
           variants={fadeIn('down', 0.2)} 
@@ -35,9 +35,9 @@ const Home = () => {
           initial='hidden' 
           animate='show'
           exit='hidden'
-          className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+          className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 md:mb-12 sm:text-lg md:text-lg lg:text-xl"
         >
-          Culpa veniam in dolore ipsum. Proident veniam in deserunt ea cupidatat deserunt non sunt anim anim nostrud proident cillum. Enim veniam cupidatat sint reprehenderit laboris eu eu dolore dolor.
+           Hi, Im David Patiño, a passionate full-stack developer dedicated to turning innovative ideas into powerful digital solutions. With a strong foundation in both frontend and backend development, I bring visions to life through clean, efficient code and captivating design. Explore my projects to see how creativity meets technology, and lets transform your next big idea into reality together.
         </motion.p>
         {/* Btn */}
         <motion.div 
