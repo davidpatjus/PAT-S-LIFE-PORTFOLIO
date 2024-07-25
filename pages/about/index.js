@@ -66,70 +66,70 @@ const aboutData = [
     title: 'Skills',
     info: [
       {
-        title: 'Web Development',
+        title: 'Frontend Development',
         icons: [
-          <FaHtml5 key={FaHtml5} />,
-          <FaCss3 key={FaCss3} />,
-          <FaJs key={FaJs} />,
-          <SiTypescript key={SiTypescript} />,
-          <FaReact key={FaReact} />,
-          <SiVite key={SiVite} />,
-          <SiNextdotjs key={SiNextdotjs} />,
-          <FaAngular key={FaAngular} />,
-          <SiAstro key={SiAstro} />,
-          <SiFramer key={SiFramer} />,
-          <FaBootstrap key={FaBootstrap} />,
-          <SiTailwindcss key={SiTailwindcss} />,
-          <SiRedux key={SiRedux} />,
-          <SiAxios key={SiAxios} />,
+          { component: <FaHtml5 key={FaHtml5} />, name: 'HTML5' },
+          { component: <FaCss3 key={FaCss3} />, name: 'CSS3' },
+          { component: <FaJs key={FaJs} />, name: 'JavaScript' },
+          { component: <SiTypescript key={SiTypescript} />, name: 'TypeScript' },
+          { component: <FaReact key={FaReact} />, name: 'React' },
+          { component: <SiVite key={SiVite} />, name: 'Vite' },
+          { component: <SiNextdotjs key={SiNextdotjs} />, name: 'Next.js' },
+          { component: <FaAngular key={FaAngular} />, name: 'Angular' },
+          { component: <SiAstro key={SiAstro} />, name: 'Astro' },
+          { component: <SiFramer key={SiFramer} />, name: 'Framer Motion' },
+          { component: <FaBootstrap key={FaBootstrap} />, name: 'Bootstrap' },
+          { component: <SiTailwindcss key={SiTailwindcss} />, name: 'Tailwind CSS' },
+          { component: <SiRedux key={SiRedux} />, name: 'Redux' },
+          { component: <SiAxios key={SiAxios} />, name: 'Axios' },
         ],
       },
       {
         title: 'Backend Development',
         icons: [
-        <FaNodeJs key={FaNodeJs} />,
-        <SiNestjs key={SiNestjs} />,
-        <SiExpress key={SiExpress} />,
-        <SiSequelize key={SiSequelize} />,
-        <SiPostman key={SiPostman} />,
-        <SiPowershell key={SiPowershell} />,
-        <SiJsonwebtokens key={SiJsonwebtokens} />,
-        <SiNodemon key={SiNodemon} />
+          { component: <FaNodeJs key={FaNodeJs} />, name: 'Node.js' },
+          { component: <SiNestjs key={SiNestjs} />, name: 'Nest.js' },
+          { component: <SiExpress key={SiExpress} />, name: 'Express.js' },
+          { component: <SiSequelize key={SiSequelize} />, name: 'Sequelize' },
+          { component: <SiPostman key={SiPostman} />, name: 'Postman' },
+          { component: <SiPowershell key={SiPowershell} />, name: 'PowerShell' },
+          { component: <SiJsonwebtokens key={SiJsonwebtokens} />, name: 'JWT' },
+          { component: <SiNodemon key={SiNodemon} />, name: 'Nodemon' },
         ],
       },
       {
         title: 'Database Management',
-        icons: [ 
-        <SiMysql key={SiMysql} />, 
-        <SiPostgresql key={SiPostgresql} />, 
-        <SiMongodb key={SiMongodb} />,
-        <SiFirebase key={SiFirebase} />,
-        <SiSupabase key={SiSupabase} />,
+        icons: [
+          { component: <SiMysql key={SiMysql} />, name: 'MySQL' },
+          { component: <SiPostgresql key={SiPostgresql} />, name: 'PostgreSQL' },
+          { component: <SiMongodb key={SiMongodb} />, name: 'MongoDB' },
+          { component: <SiFirebase key={SiFirebase} />, name: 'Firebase' },
+          { component: <SiSupabase key={SiSupabase} />, name: 'Supabase' },
         ],
       },
       {
         title: 'UI/UX Design',
         icons: [
-        <FaFigma key={FaFigma} />,
-        <SiCanva key={SiCanva} />,
-        <SiAdobephotoshop key={SiAdobephotoshop} />
+          { component: <FaFigma key={FaFigma} />, name: 'Figma' },
+          { component: <SiCanva key={SiCanva} />, name: 'Canva' },
+          { component: <SiAdobephotoshop key={SiAdobephotoshop} />, name: 'Adobe Photoshop' },
         ],
       },
       {
         title: 'Other tools',
         icons: [
-        <FaGitAlt key={FaGitAlt} />, 
-        <FaGithub key={FaGithub} />, 
-        <SiVisualstudio key={SiVisualstudio } />, 
-        <SiCplusplus key={SiCplusplus} />,
-        <SiCsharp key={SiCsharp} />, 
-        <FaPhp key={FaPhp} />,
-        <FaPython key={FaPython} />,
-        <FaDocker key={FaDocker} />,
-        <SiVercel key={SiVercel} />,
-        <SiNotion key={SiNotion} />,
-        <FaNpm key={FaNpm} />,
-        <SiWebpack key={SiWebpack} />,
+          { component: <FaGitAlt key={FaGitAlt} />, name: 'Git' },
+          { component: <FaGithub key={FaGithub} />, name: 'GitHub' },
+          { component: <SiVisualstudio key={SiVisualstudio} />, name: 'Visual Studio' },
+          { component: <SiCplusplus key={SiCplusplus} />, name: 'C++' },
+          { component: <SiCsharp key={SiCsharp} />, name: 'C#' },
+          { component: <FaPhp key={FaPhp} />, name: 'PHP' },
+          { component: <FaPython key={FaPython} />, name: 'Python' },
+          { component: <FaDocker key={FaDocker} />, name: 'Docker' },
+          { component: <SiVercel key={SiVercel} />, name: 'Vercel' },
+          { component: <SiNotion key={SiNotion} />, name: 'Notion' },
+          { component: <FaNpm key={FaNpm} />, name: 'NPM' },
+          { component: <SiWebpack key={SiWebpack} />, name: 'Webpack' },
         ],
       },
     ],
@@ -155,11 +155,11 @@ const aboutData = [
       },
     ],
   },
-
 ];
 
 const About = () => {
   const [index, setIndex] = useState(0);
+  const [hoveredIcon, setHoveredIcon] = useState(null);
 
   return <div className=" h-full md:h-screen bg-primary/30 py-32 text-center xl:text-left"> 
     
@@ -293,10 +293,10 @@ const About = () => {
             {aboutData[index]?.info.map((item, itemIndex) => (
               <div 
                 key={itemIndex} 
-                className="flex flex-col justify-center items-center xl:items-start gap-y-4 text-white/60 w-full"
+                className="flex flex-col justify-center items-center xl:items-start gap-y-4 w-full"
               >
                 {/* Título */}
-                <div className="font-medium text-lg text-center xl:text-left">{item.title}</div>
+                <div className=" font-medium text-lg text-center xl:text-left">{item.title}</div>
                 
                 {/* Leyenda */}
                 <div className="text-gray-400 text-center xl:text-left">{item.stage}</div>
@@ -304,20 +304,25 @@ const About = () => {
                 {/* Iconos */}
                 <div className="flex gap-x-2 justify-center xl:justify-start">
                   {item.icons?.map((icon, iconIndex) => (
-                    <div 
+                    <div
                       key={iconIndex}
-                      className="text-3xl  text-white"
+                      className="relative text-3xl text-white"
+                      onMouseEnter={() => setHoveredIcon(icon.name)}
+                      onMouseLeave={() => setHoveredIcon(null)}
                     >
-                      {icon}
+                      {icon.component}
+                      {hoveredIcon === icon.name && (
+                        <div className="absolute bottom-full mb-2 w-max px-2 py-1 bg-accent text-black text-sm rounded">
+                          {icon.name}
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>
               </div>
             ))}
-          
-        </div>
-
-      </motion.div>
+          </div>
+        </motion.div>
 
     </div>
   </div>;
