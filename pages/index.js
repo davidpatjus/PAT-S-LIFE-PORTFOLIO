@@ -68,7 +68,7 @@ const Home = () => {
       <ParticleContainer />
       {/* avatar img */}
       <motion.div 
-      className="w-full h-full max-w-[504px] max-h-[896px] absolute -bottom-32 lg:bottom-0 lg:right-[20%] top-12 drop-shadow-2xl hover:drop-shadow-xl shadow-accent"
+      className="w-full h-full max-w-[504px] max-h-[896px] absolute -bottom-32 lg:bottom-0 lg:right-[20%] top-12 drop-shadow-2xl hover:drop-shadow-xl shadow-accent "
       variants={fadeIn('up', 0.5)} 
       initial='hidden' 
       animate='show'
