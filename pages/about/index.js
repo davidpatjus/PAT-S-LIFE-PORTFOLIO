@@ -161,7 +161,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
-  return <div className=" h-full md:h-screen bg-primary/30 py-32 text-center xl:text-left"> 
+  return <div className=" h-full md:h-screen bg-primary/30 py-32 text-center xl:text-left overflow-y-auto scrollbar-thin scrollbar-thumb-accent scrollbar-track-transparent xl:overflow-y-visible"> 
     
     <Circles />
     
@@ -176,7 +176,7 @@ const About = () => {
         <Avatar />
       </motion.div>
 
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 px-4">
 
         {/* text */}
       <div className="flex-1 flex flex-col justify-center">
@@ -184,7 +184,8 @@ const About = () => {
           variants={fadeIn('right', 0.2)} 
           initial='hidden' 
           animate='show' 
-          exit='hidden'  className="h2"
+          exit='hidden'  
+          className="h2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold"
         >
           Great solutions with wonderful <span className="text-accent">designs.</span> 
         </motion.h2>
@@ -193,7 +194,7 @@ const About = () => {
           initial="hidden" 
           animate="show" 
           exit="hidden"  
-          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-sm sm:text-base md:text-lg lg:text-xl "
+          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-base sm:text-lg md:text-xl "
         >
           I am a dedicated, committed, self-sufficient, self-demanding and enthusiastic junior Full-Stack developer from Pereira, Colombia. I am currently studying Systems and Computer Engineering at the Technological University of Pereira, since I was a child I have a deep passion for creating innovative digital solutions that bridge the gap between technology and user experience.
         </motion.p> 
@@ -268,11 +269,11 @@ const About = () => {
         initial='hidden' 
         animate='show' 
         exit='hidden'  
-        className="flex flex-col w-full xl:max-w-[48%] h-full md:h-[540px] overflow-y-auto scrollbar-thin scrollbar-thumb-accent scrollbar-track-transparent xl:overflow-y-visible"
+        className="flex flex-col w-full xl:max-w-[52%] h-full md:h-[610px] px-4 sm:px-6"
       >
 
         {/* selector */}
-        <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 justify-center">
+        <div className="flex gap-x-4 sm:gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4 justify-center">
           {aboutData.map((item, itemIndex) => (
             <div 
               key={itemIndex} 
@@ -288,7 +289,7 @@ const About = () => {
         </div>
 
         {/* info */}
-        <div className="py-4 xl:py-8 flex flex-col gap-y-4 xl:gap-y-6 items-center xl:items-start min-h-screen overflow-y-auto  px-4 xl:px-0">
+        <div className="py-4 sm:py-6 xl:py-8 flex flex-col gap-y-4 sm:gap-y-6 xl:gap-y-8 items-center xl:items-start min-h-screen px-4 sm:px-6 xl:px-8">
           
             {aboutData[index]?.info.map((item, itemIndex) => (
               <div 
@@ -299,14 +300,14 @@ const About = () => {
                 <div className=" font-medium text-lg text-center xl:text-left">{item.title}</div>
                 
                 {/* Leyenda */}
-                <div className="text-gray-400 text-center xl:text-left">{item.stage}</div>
+                <div className="text-gray-400 text-sm sm:text-base text-center xl:text-left">{item.stage}</div>
                 
                 {/* Iconos */}
-                <div className="flex gap-x-2 justify-center xl:justify-start">
+                <div className="flex flex-wrap gap-3 justify-center">
                   {item.icons?.map((icon, iconIndex) => (
                     <div
                       key={iconIndex}
-                      className="relative text-3xl text-white"
+                      className="relative text-xl sm:text-2xl md:text-3xl text-white flex-shrink-0"
                       onMouseEnter={() => setHoveredIcon(icon.name)}
                       onMouseLeave={() => setHoveredIcon(null)}
                     >
@@ -319,6 +320,7 @@ const About = () => {
                     </div>
                   ))}
                 </div>
+
               </div>
             ))}
           </div>
