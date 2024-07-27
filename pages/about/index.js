@@ -193,7 +193,7 @@ const About = () => {
           initial="hidden" 
           animate="show" 
           exit="hidden"  
-          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 md:text-lg lg:text-xl "
+          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-sm sm:text-base md:text-lg lg:text-xl "
         >
           I am a dedicated, committed, self-sufficient, self-demanding and enthusiastic junior Full-Stack developer from Pereira, Colombia. I am currently studying Systems and Computer Engineering at the Technological University of Pereira, since I was a child I have a deep passion for creating innovative digital solutions that bridge the gap between technology and user experience.
         </motion.p> 
