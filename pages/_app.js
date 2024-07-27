@@ -1,5 +1,8 @@
 import '../styles/globals.css';
 
+// next analytics
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 // components
 import Layout from '../components/Layout';
 import Transition from '../components/Transition';
@@ -14,6 +17,7 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
   <Layout>
+    <SpeedInsights/>
     <AnimatePresence mode='wait'>
       <motion.div key={router.route} className='h-full'>
         <Transition />
