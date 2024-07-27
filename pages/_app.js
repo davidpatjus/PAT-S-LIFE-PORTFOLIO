@@ -1,5 +1,8 @@
 import '../styles/globals.css';
 
+// metadata
+import Head from 'next/head';
+
 // next analytics
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
@@ -17,6 +20,24 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
   <Layout>
+    <Head>
+
+      {/* titulo del sitio */}
+      <title>David Patiño | Full-Stack Developer</title>
+
+      {/* Descripción del sitio */}
+      <meta name="description" content="Portafolio personal de David Esteban Patiño Juspian, desarrollador fullstack."/>
+
+      {/* Palabras clave */}
+      <meta name="keywords" content="David Esteban Patiño Juspian, desarrollador fullstack, portafolio, sistemas y computación, desarrollo web"/>
+
+      {/* Autor */}
+      <meta name="author" content="David Esteban Patiño Juspian"/>
+
+      {/* Viewport para dispositivos móviles */}
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    </Head>
     <SpeedInsights/>
     <AnimatePresence mode='wait'>
       <motion.div key={router.route} className='h-full'>
