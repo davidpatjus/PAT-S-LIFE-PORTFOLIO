@@ -24,27 +24,27 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'I create a strong brand identity that stands out. I develop cohesive strategies to make your brand influential, powerful and effective.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Awesome visuals and intuitive interfaces that engage users and drive conversions. I design with beauty, modern and functionality in mind.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'I build high-quality, scalable digital solutions. From websites to custom software, I use the latest technologies to deliver impactful results.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Engaging content that communicates your message clearly. I craft persuasive copy to capture attention and drive action.',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Boost your search rankings and organic traffic. I implement effective SEO strategies to enhance visibility and attract more customers.',
   },
 ];
 
@@ -74,13 +74,13 @@ const ServiceSlider = () => {
         serviceData.map((item,index) => {
           return (
             <SwiperSlide key={index}>
-              <div className='bg-[rgba(65,47,123,0.15)] h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-8 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300'>
+              <div className='bg-[rgba(65,47,123,0.15)] h-full rounded-lg px-6 py-4 flex sm:flex-col gap-x-4 sm:gap-x-8 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300'>
                 {/* icons */}
                 <div className='text-4xl text-accent mb-4'>{item.icon}</div>
                 {/* title & desc */}
                 <div className='mb-8'>
                   <div className='mb-2 text-lg'>{item.title}</div>
-                  <p className='max-w-[350px] leading-normal'>{item.description}</p>
+                  <p className='max-w-[350px] leading-normal text-sm md:text-lg xl:text-base'>{item.description}</p>
                 </div>
                 {/* arrow */}
                 <div className='text-3xl'>

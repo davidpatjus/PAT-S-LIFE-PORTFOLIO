@@ -4,40 +4,48 @@ const workSlides = {
     {
       images: [
         {
-          title: 'title',
-          path: '/thumb1.jpg',
+          title: 'PlexoApp',
+          path: '/plexo.jpg',
+          link: 'https://plexoshop.vercel.app/'
         },
         {
-          title: 'title',
-          path: '/thumb2.jpg',
+          title: 'ACME',
+          path: '/acme.jpg',
+          link: 'https://acme-nextjs-indol.vercel.app/'
         },
         {
-          title: 'title',
-          path: '/thumb3.jpg',
+          title: 'DigginTheMovies',
+          path: '/DigginTheMovies.jpg',
+          link: 'https://patsdigginthemovies.netlify.app/'
         },
         {
-          title: 'title',
-          path: '/thumb4.jpg',
+          title: 'NewsApp',
+          path: '/NewsApp.jpg',
+          link: 'https://patsnewsapp.netlify.app/'
         },
       ],
     },
     {
       images: [
         {
-          title: 'title',
-          path: '/thumb4.jpg',
+          title: 'Restaurancy',
+          path: '/Restaurancy.jpg',
+          link: 'https://github.com/davidpatjus/Restaurancy-Next'
         },
         {
-          title: 'title',
-          path: '/thumb1.jpg',
+          title: 'More Projects',
+          path: '/github.jpg',
+          link: 'https://github.com/davidpatjus'
         },
         {
-          title: 'title',
-          path: '/thumb2.jpg',
+          title: 'MigradoLibre',
+          path: '/MigradoLibre.jpg',
+          link: 'https://patsmigradolibretest.netlify.app/'
         },
         {
-          title: 'title',
-          path: '/thumb3.jpg',
+          title: 'RickAndMortyApp',
+          path: '/RickAndMortyApp.jpg',
+          link: 'https://patsrickandmortyapi.netlify.app/'
         },
       ],
     },
@@ -83,6 +91,16 @@ const WorkSlider = () => {
                       {/* image */}
                       <Image src={image.path} width={500} height={300} alt="" />
 
+                      {/* link */}
+                      {image.link && (
+                        <a 
+                          href={image.link}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="absolute inset-0 z-10"
+                        ></a>
+                      )}
+
                       {/* overlay gradient */}
                       <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
 
@@ -99,7 +117,7 @@ const WorkSlider = () => {
                           <div 
                             className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150"
                           >
-                            PROJECT
+                            {image.title}
                           </div>
 
                           {/* icon */}

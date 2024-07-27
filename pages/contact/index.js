@@ -13,7 +13,7 @@ import { fadeIn } from "../../variants";
 const Contact = () => {
   return ( 
   <div className="h-full bg-primary/30">
-    <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
+    <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-max">
 
       {/* text & form */}
       <div className="flex flex-col w-full max-w-[700px]">
@@ -45,10 +45,16 @@ const Contact = () => {
           </div>
             <input type="text" placeholder="subject" className="input" required />
             <textarea placeholder="message" className="textarea"></textarea>
+            <div className="flex gap-x-4">
             <button className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group">
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">let&apos;s talk</span>
               <BsArrowRight className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]" />
             </button>
+            <a href="https://web.whatsapp.com/3146200770" className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group">
+              <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">WhatsApp</span>
+              <BsArrowRight className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]" />
+            </a>
+            </div>
         </motion.form>
       </div>
 

@@ -32,9 +32,9 @@ const Services = () => {
             initial='hidden'
             animate='show'
             exit='hidden'            
-            className="mb-4 max-w-[400px] mx-auto lg:mx-0"
+            className="mb-4 max-w-[400px] mx-auto lg:mx-0 text-sm md:text-xl lg:text-xl"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro unde assumenda perspiciatis quas totam explicabo voluptas ex, veritatis eius voluptatibus!
+            Unlock the full potential of your business with my comprehensive services. I deliver tailored solutions that enhance your brand&apos;s identity, optimize your online presence, and drive results. Let&apos;s transform your vision into reality and achieve your business goals together.
           </motion.p>
 
         </div>
@@ -45,7 +45,7 @@ const Services = () => {
           initial='hidden'
           animate='show'
           exit='hidden' 
-          className="w-full xl:max-w-[65%]"
+          className="w-full xl:max-w-[68%]"
         >
 
         <ServiceSlider />

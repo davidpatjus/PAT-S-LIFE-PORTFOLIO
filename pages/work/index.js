@@ -34,7 +34,7 @@ const Work = () => {
             exit='hidden'            
             className="mb-4 max-w-[400px] mx-auto lg:mx-0"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro unde assumenda perspiciatis quas totam explicabo voluptas ex, veritatis eius voluptatibus!
+            Discover a selection of my projects that showcase my skills in web development, design, and more. Each project highlights my ability to deliver innovative and high-quality solutions tailored to meet diverse needs. Dive in to see how I bring ideas to life and create impactful digital experiences.
           </motion.p>
 
         </div>
