@@ -22,7 +22,7 @@ const Services = () => {
             initial='hidden'
             animate='show'
             exit='hidden' 
-            className="h2 xl:mt-8"
+            className="h2 xl:mt-8 mt-4"
           >
             My Services <span className="text-accent">.</span>
           </motion.h2>
@@ -32,7 +32,7 @@ const Services = () => {
             initial='hidden'
             animate='show'
             exit='hidden'            
-            className="mb-4 max-w-[400px] mx-auto lg:mx-0 text-sm md:text-xl lg:text-xl"
+            className="mb-4 max-w-[400px] mx-auto lg:mx-0 text-sm md:text-base lg:text-xl"
           >
             Unlock the full potential of your business with my comprehensive services. I deliver tailored solutions that enhance your brand&apos;s identity, optimize your online presence, and drive results. Let&apos;s transform your vision into reality and achieve your business goals together.
           </motion.p>

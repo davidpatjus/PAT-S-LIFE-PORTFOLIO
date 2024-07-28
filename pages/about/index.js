@@ -161,7 +161,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
-  return <div className=" h-full md:h-screen bg-primary/30 py-32 text-center xl:text-left overflow-y-auto scrollbar-thin scrollbar-thumb-accent scrollbar-track-transparent xl:overflow-y-visible"> 
+  return <div className=" h-[80%] md:h-screen bg-primary/30 py-30 xs:mt-24 xl:mt-0 text-center xl:text-left overflow-y-auto scrollbar-thin scrollbar-thumb-accent scrollbar-track-transparent xl:overflow-y-visible"> 
     
     <Circles />
     
@@ -185,7 +185,7 @@ const About = () => {
           initial='hidden' 
           animate='show' 
           exit='hidden'  
-          className="h2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold"
+          className="h2 text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold"
         >
           Great solutions with wonderful <span className="text-accent">designs.</span> 
         </motion.h2>
@@ -194,7 +194,7 @@ const About = () => {
           initial="hidden" 
           animate="show" 
           exit="hidden"  
-          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-base sm:text-lg md:text-xl "
+          className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-base xs:text-sm sm:text-base md:text-lg "
         >
           I am a dedicated, committed, self-sufficient, self-demanding and enthusiastic junior Full-Stack developer from Pereira, Colombia. I am currently studying Systems and Computer Engineering at the Technological University of Pereira, since I was a child I have a deep passion for creating innovative digital solutions that bridge the gap between technology and user experience.
         </motion.p> 
@@ -269,7 +269,7 @@ const About = () => {
         initial='hidden' 
         animate='show' 
         exit='hidden'  
-        className="flex flex-col w-full xl:max-w-[52%] h-full md:h-[610px] px-4 sm:px-6"
+        className="flex flex-col w-full xl:max-w-[52%] h-max md:h-[610px] px-4 sm:px-6"
       >
 
         {/* selector */}

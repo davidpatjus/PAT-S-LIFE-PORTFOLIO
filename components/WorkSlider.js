@@ -28,16 +28,6 @@ const workSlides = {
     {
       images: [
         {
-          title: 'Restaurancy',
-          path: '/Restaurancy.jpg',
-          link: 'https://github.com/davidpatjus/Restaurancy-Next'
-        },
-        {
-          title: 'More Projects',
-          path: '/github.jpg',
-          link: 'https://github.com/davidpatjus'
-        },
-        {
           title: 'MigradoLibre',
           path: '/MigradoLibre.jpg',
           link: 'https://patsmigradolibretest.netlify.app/'
@@ -46,6 +36,16 @@ const workSlides = {
           title: 'RickAndMortyApp',
           path: '/RickAndMortyApp.jpg',
           link: 'https://patsrickandmortyapi.netlify.app/'
+        },
+        {
+          title: 'Restaurancy',
+          path: '/Restaurancy.jpg',
+          link: 'https://github.com/davidpatjus/Restaurancy-Next'
+        },
+        {
+          title: 'More Projects',
+          path: '/github.jpg',
+          link: 'https://github.com/davidpatjus'
         },
       ],
     },

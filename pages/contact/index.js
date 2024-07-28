@@ -13,7 +13,7 @@ import { fadeIn } from "../../variants";
 const Contact = () => {
   return ( 
   <div className="h-full bg-primary/30">
-    <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-max">
+    <div className="container mx-auto xs:py-24 lg:py-32 text-center xl:text-left flex items-center justify-center h-max">
 
       {/* text & form */}
       <div className="flex flex-col w-full max-w-[700px]">
@@ -24,7 +24,7 @@ const Contact = () => {
           initial="hidden"
           animate="show"
           exit="hidden" 
-          className="h2 text-center mb-12"
+          className="h2 text-center xs:mb-4 lg:mb-12"
         >
           Let&rsquo;s <span className="text-accent">connect.</span>
         </motion.h2>
