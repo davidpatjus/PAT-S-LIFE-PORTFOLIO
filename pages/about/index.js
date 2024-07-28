@@ -297,7 +297,7 @@ const About = () => {
                 className="flex flex-col justify-center items-center xl:items-start gap-y-4 w-full"
               >
                 {/* Título */}
-                <div className=" font-medium text-lg text-center xl:text-left">{item.title}</div>
+                <div className=" font-medium text-lg text-center xl:text-left text-accent">{item.title}</div>
                 
                 {/* Leyenda */}
                 <div className="text-gray-400 text-sm sm:text-base text-center xl:text-left">{item.stage}</div>
@@ -324,6 +324,9 @@ const About = () => {
               </div>
             ))}
           </div>
+          <br />
+          <br />
+          <br />
         </motion.div>
 
     </div>

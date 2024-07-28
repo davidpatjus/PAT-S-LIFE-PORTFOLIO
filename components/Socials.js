@@ -14,7 +14,7 @@ import {
 const Socials = () => {
   return (
    <div className="flex items-center gap-x-5 text-lg">
-    <Link href={'https://web.whatsapp.com/3146200770'} className="hover:text-accent transition-all duration-300">
+    <Link href={'https://api.whatsapp.com/send?phone=573146200770&text=%F0%9F%91%BE%20Hi%20David%2C%20how%20are%20you%3F%20I%20am%20interested%20in%20your%20services.%20%F0%9F%91%BE%20'} className="hover:text-accent transition-all duration-300">
       <RiWhatsappLine />
     </Link>
     <Link href={'https://www.facebook.com/david.patino.10004694/'} className="hover:text-accent transition-all duration-300">
