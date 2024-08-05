@@ -142,7 +142,7 @@ const aboutData = [
         stage: 'I completed high school with a focus on foundational sciences and mathematics, laying the groundwork for a career in technology.',
       },
       {
-        title: ' Bachelors Degree in Systems and Computing Engineering - Universidad Tecnológica de Pereira (2023 - Present) ',
+        title: ' Systems and Computing Engineering - Universidad Tecnológica de Pereira (2023 - Present) ',
         stage: 'Currently pursuing a degree that covers various aspects of computing, programming, and systems engineering.',
       },
       {

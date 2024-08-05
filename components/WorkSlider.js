@@ -9,9 +9,9 @@ const workSlides = {
           link: 'https://plexoshop.vercel.app/'
         },
         {
-          title: 'ACME',
-          path: '/acme.jpg',
-          link: 'https://acme-nextjs-indol.vercel.app/'
+          title: 'Rap Collection',
+          path: '/RapCollection.jpg',
+          link: 'https://pats-rap-collection.vercel.app/'
         },
         {
           title: 'DigginTheMovies',
@@ -38,10 +38,19 @@ const workSlides = {
           link: 'https://patsrickandmortyapi.netlify.app/'
         },
         {
+          title: 'ACME',
+          path: '/acme.jpg',
+          link: 'https://acme-nextjs-indol.vercel.app/'
+        },
+        {
           title: 'Restaurancy',
           path: '/Restaurancy.jpg',
           link: 'https://github.com/davidpatjus/Restaurancy-Next'
         },
+      ],
+    },
+    {
+      images: [
         {
           title: 'More Projects',
           path: '/github.jpg',

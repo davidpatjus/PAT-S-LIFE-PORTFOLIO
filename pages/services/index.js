@@ -9,7 +9,7 @@ import { fadeIn } from '../../variants'
 
 const Services = () => {
   return (
-  <div className="h-full mt-4 bg-primary/30 py-36 flex items-center">
+  <div className="h-full mt-0 bg-primary/30 py-36 flex items-center">
     <Circles />
     <div className="container mx-auto ">
       <div className="flex flex-col xl:flex-row gap-x-8">
@@ -22,7 +22,7 @@ const Services = () => {
             initial='hidden'
             animate='show'
             exit='hidden' 
-            className="h2 xl:mt-8 mt-4"
+            className="h2 xl:mt-0 mt-4"
           >
             My Services <span className="text-accent">.</span>
           </motion.h2>
