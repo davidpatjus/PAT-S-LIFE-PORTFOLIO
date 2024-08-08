@@ -40,14 +40,9 @@ function MyApp({ Component, pageProps }) {
       <meta property="og:type" content="website" />
       <meta property="og:title" content="David Patiño | Full-Stack Developer" />
       <meta property="og:description" content="Portafolio personal de David Esteban Patiño Juspian, desarrollador fullstack." />
-      <meta property="og:image" content="/pages/opengraph-image.png" />
-      metadatabase
+      <meta property="og:image" content="<generated>" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="David Patiño | Full-Stack Developer" />
-      <meta property="og:image:type" content="image/png" />
-      <meta property="og:image:secure_url" content="/pages/opengraph-image.png" />
-      <meta property="og:image:url" content="/pages/opengraph-image.png" />
       <meta property="og:url" content="https://pat-s-life-portfolio.vercel.app" />
       <meta property="og:site_name" content="David Patiño | Full-Stack Developer" />
       <meta property="og:locale" content="es_ES" />
