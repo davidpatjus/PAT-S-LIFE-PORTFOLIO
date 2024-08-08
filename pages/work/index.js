@@ -34,8 +34,7 @@ const Work = () => {
             exit='hidden'            
             className="mb-4 max-w-[400px] mx-auto lg:mx-0 xs:text-sm md:text-base lg:text-base"
           >
-            Discover a selection of my projects that showcase my skills in web development, design, and more. Each project highlights my ability to deliver innovative and high-quality solutions tailored to meet diverse needs. Dive in to see how I bring ideas to life and create impactful digital experiences.
-          </motion.p>
+            Discover a selection of my projects that showcase my skills in web development, design, and more. Each project highlights my ability to deliver innovative, high-quality solutions tailored to meet diverse needs. Dive in to see how I bring ideas to life and create impactful digital experiences.          </motion.p>
 
         </div>
 

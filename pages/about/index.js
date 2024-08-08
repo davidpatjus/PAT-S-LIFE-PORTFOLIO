@@ -138,20 +138,20 @@ const aboutData = [
     title: 'Studies',
     info: [
       {
-        title: ' High School - Jose Antonio Galan (2016 - 2022)',
+        title: ' High School - José Antonio Galán (2016 - 2022)',
         stage: 'I completed high school with a focus on foundational sciences and mathematics, laying the groundwork for a career in technology.',
       },
       {
         title: ' Systems and Computing Engineering - Universidad Tecnológica de Pereira (2023 - Present) ',
-        stage: 'Currently pursuing a degree that covers various aspects of computing, programming, and systems engineering.',
+        stage: 'I am currently pursuing a degree that covers various aspects of computing, programming, and systems engineering.',
       },
       {
         title: ' III Coding Bootcamp FullStack - UTP (2024)',
-        stage: 'Gained practical experience in fullstack development, focusing on modern web technologies and best practices.',
+        stage: 'I gained practical experience in full-stack development, focusing on modern web technologies and best practices.',
       },
       {
         title: ' IV Coding Bootcamp FullStack - UTP (2024)',
-        stage: 'Continued to build on fullstack development skills, working on advanced projects and collaborative tasks.',
+        stage: 'I continued to build on my full-stack development skills, working on advanced projects and collaborative tasks.',
       },
     ],
   },
@@ -161,7 +161,7 @@ const About = () => {
   const [index, setIndex] = useState(0);
   const [hoveredIcon, setHoveredIcon] = useState(null);
 
-  return <div className=" h-[80%] md:h-screen bg-primary/30 py-30 xs:mt-24 xl:mt-0 text-center xl:text-left overflow-y-auto scrollbar-thin scrollbar-thumb-accent scrollbar-track-transparent xl:overflow-y-visible"> 
+  return <div className=" h-[80%] md:h-screen bg-primary/30 py-30 xs:pt-24 md:pt-0 xs:mt-24 xl:mt-0 text-center xl:text-left overflow-y-auto scrollbar-thin scrollbar-thumb-accent scrollbar-track-transparent xl:overflow-y-visible"> 
     
     <Circles />
     
@@ -269,7 +269,7 @@ const About = () => {
         initial='hidden' 
         animate='show' 
         exit='hidden'  
-        className="flex flex-col w-full xl:max-w-[52%] h-max md:h-[610px] px-4 sm:px-6"
+        className="flex flex-col w-full xl:max-w-[52%] h-max md:h-[610px] px-4 sm:px-6 xs:mt-8 md:mt-0 xl:mt-0"
       >
 
         {/* selector */}

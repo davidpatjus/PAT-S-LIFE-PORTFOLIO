@@ -36,6 +36,11 @@ function MyApp({ Component, pageProps }) {
 
       {/* Viewport para dispositivos móviles */}
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="../public/PatsPortfolio.png" />
+      <meta property="og:url" content="https://pat-s-life-portfolio.vercel.app/" />
+
     
     </Head>
     <SpeedInsights/>

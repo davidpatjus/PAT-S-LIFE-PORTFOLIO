@@ -40,8 +40,7 @@ const Home = () => {
           exit='hidden'
           className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 md:mb-12 xs:mt-0 md:mt-6 xs:text-sm md:text-base"    
         >
-           Hi, Im David Patiño, a passionate full-stack developer dedicated to turning innovative ideas into powerful digital solutions. With a strong foundation in both frontend and backend development, I bring visions to life through clean, efficient code and captivating design. Explore my projects to see how creativity meets technology, and lets transform your next big idea into reality together.
-        </motion.p>
+        Hi, I&apos;m David Patiño, a passionate full-stack developer dedicated to turning innovative ideas into powerful digital solutions. With a strong foundation in both frontend and backend development, I bring visions to life through clean, efficient code and captivating designs. Explore my projects to see how creativity meets technology, and let&apos;s transform your next big idea into reality together.        </motion.p>
 
         {/* Btn */}
 

@@ -34,7 +34,7 @@ const Services = () => {
             exit='hidden'            
             className="mb-4 max-w-[400px] mx-auto lg:mx-0 text-sm md:text-base lg:text-xl"
           >
-            Unlock the full potential of your business with my comprehensive services. I deliver tailored solutions that enhance your brand&apos;s identity, optimize your online presence, and drive results. Let&apos;s transform your vision into reality and achieve your business goals together.
+            Unlock the full potential of your business with my comprehensive services. I deliver tailored solutions that enhance your brand&apos;s identity, optimize your online presence, and drive tangible results. Let&apos;s transform your vision into reality and achieve your business goals together.
           </motion.p>
 
         </div>

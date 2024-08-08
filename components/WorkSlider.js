@@ -43,14 +43,19 @@ const workSlides = {
           link: 'https://acme-nextjs-indol.vercel.app/'
         },
         {
-          title: 'Restaurancy',
-          path: '/Restaurancy.jpg',
-          link: 'https://github.com/davidpatjus/Restaurancy-Next'
+          title: 'Tier Maker',
+          path: '/TierMaker.png',
+          link: 'https://patstiermaker.netlify.app'
         },
       ],
     },
     {
       images: [
+        {
+          title: 'Restaurancy',
+          path: '/Restaurancy.jpg',
+          link: 'https://github.com/davidpatjus/Restaurancy-Next'
+        },
         {
           title: 'More Projects',
           path: '/github.jpg',
@@ -78,15 +83,16 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 //import swiper core and required modules
-import { Pagination } from 'swiper';
+import { Pagination, Navigation } from 'swiper';
 
 const WorkSlider = () => {
   return (
     <Swiper 
+      navigation={true}
       spaceBetween={10}
       pagination={{ clickable: true }}
-      modules={[ Pagination]}
-      className='h-[280px] sm:h-[480px]'
+      modules={[ Pagination, Navigation]}
+      className='h-[320px] sm:h-[480px]'
     >
       {workSlides.slides.map((slide,index) => {
           return (
