@@ -43,7 +43,7 @@ function MyApp({ Component, pageProps }) {
       <meta property="og:url" content="https://pat-s-life-portfolio.vercel.app" />
       <meta property="og:site_name" content="David Patiño | Full-Stack Developer" />
       <meta property="og:locale" content="es_ES" />
-
+      <meta property="og:image" content="/opengraph-image.png" />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="David Patiño | Full-Stack Developer" />
       <meta name="twitter:description" content="Portafolio personal de David Esteban Patiño Juspian, desarrollador fullstack." />
